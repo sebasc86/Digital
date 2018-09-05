@@ -124,3 +124,8 @@ echo $circuloSup;
 // y retorna la mayor superficie entre ambos. Para este ejercicio se deberá reutilizar las
 // funciones ya definidas.
 
+// Modificar todoJunto.php para que en su primer línea diga $funcionesEjecutadas =
+// 0. Luego, modificar cada función de funciones.php y superficie.php para que al
+// comenzar hagan $funcionesEjecutadas++. Probar llamar a varias funciones y ver
+// cuanto vale $funcionesEjecutadas en cada momento. ¿Esto esta permitido? ¿Qué
+// sucede?

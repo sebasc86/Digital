@@ -1,5 +1,6 @@
 <?php 
 include_once "funciones.php";
+include_once "todoJunto.php";
 
 function radioCirculos($radio, $radio2, $radio3) {
 	$radio = circulo($radio);

@@ -1,6 +1,11 @@
 <?php 
 
 function mayor($n1, $n2, $n3 = 25) {
+
+	global $funcionesEjecutadas;
+	
+	$funcionesEjecutadas++;
+
 	if($n1 >= $n2 && $n1 >= $n3) {
 		return $n1;
 	} else if ($n2 >= $n1 && $n2 >= $n3) {
@@ -8,7 +13,16 @@ function mayor($n1, $n2, $n3 = 25) {
 	} else if ($n3 >= $n1 && $n3 >= $n2) {
 		return $n3;
 	}
+	
+	
 } 
+
+
+
+
+
+
+
 
 function triangulo ($base, $altura){
 
