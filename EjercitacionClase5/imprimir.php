@@ -35,7 +35,7 @@ var_dump($GLOBALS);
 	<input type="checkbox" name="radio"><br>
 	Television:
 	<input type="checkbox" name="television"><br><br>
-	 <select name="carlist">
+	<select name="carlist">
 	  <option  value="volvo">Volvo</option>
 	  <option value="saab">Saab</option>
 	  <option  value="mercedes">Mercedes</option>
