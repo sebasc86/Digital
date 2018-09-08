@@ -15,6 +15,7 @@ if (!isset($_GET['version'])) {
 $paises = ['Argentina', 'Brasil', 'Chile', 'Paraguay', 'Uruguay', 'Estados Unidos', 'Canada', 'Mexico', 'España', 'Italia'];
 
 
+
 ?>
 
 
@@ -69,9 +70,12 @@ $paises = ['Argentina', 'Brasil', 'Chile', 'Paraguay', 'Uruguay', 'Estados Unido
                 </div>
                 <?php endif; ?>
 
-                <select name="paises">
-                    
-
+                <select name="countryList">
+                    <?php foreach ($paises as $key => $value): ?>
+                         <option  value='<?php echo $value ;?>'>
+                            <?php echo $value;?> 
+                         </option>
+                    <?php endforeach ;?>                 
                 </select>
 
                 <div class='container'>
